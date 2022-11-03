@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #bbdbfd;
+  font-family: "DINPro-Bold", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-dev {
+  width: 64%;
+  height: 100%;
+  background: no-repeat top/cover url(../images/ellipse-desktop.svg);
+  background-size: 100%;
+}
+
+.main-content {
+  height: 100%;
+  width: 64%;
+  margin: 7% auto;
+}
+
+.main-content h2 {
+  color: white;
+  /* font-size: 30px; */
+  line-height: 110%;
+  letter-spacing: -0.02em;
+}
+
+.main-content p {
+  color: #adb5bd;
+  /* font-size: 20px; */
+}
+
+.div_stores {
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -2%;
+}
+
+.play-store,
+.app-store {
+  text-align: center;
+}
+
+.play-store {
+  margin-left: 2%;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.phone_img {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 39%;
+}
+
+.water_img {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  right: 39%;
+}
+
+.water_img img {
+  border-radius: 50%;
+}
+
+.water_hand_img {
+  position: absolute;
+  margin: 0;
+  left: 85%;
+  top: 70%;
+}
+
+.water_hand_img img {
+  border-radius: 50%;
+}
+
+.dot1, .dot2, .dot3, .dot4 {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+}
+.dot1 {
+  background-color: #6095D6;;
+  left: 55%;
+}
+
+.dot2 {
+  background-color: #6095D6;
+  right: 10%;
+  top: 10%;
+}
+
+.dot3 {
+  background-color: #9BCD41;;
+  right: 7%;
+  top: 15%;
+}
+
+.dot4 {
+  background-color: #6095D6;
+  left: 50%;
+}
+
+
+/* @media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  h2,
+  p {
+    font-size: 90% !important;
+  }
+  .main-dev {
+    width: 100%;
+    height: 100%;
+    background-image: no-repeat top/cover url(../images/ellipse-mobile.svg);
+  }
+} */
+
+@media screen and (max-width: 1280px) {
+  body {
+  }
+}
