@@ -33,14 +33,12 @@ body {
 
 .main-content h2 {
   color: white;
-  /* font-size: 30px; */
   line-height: 110%;
   letter-spacing: -0.02em;
 }
 
 .main-content p {
   color: #adb5bd;
-  /* font-size: 20px; */
 }
 
 .div_stores {
@@ -50,7 +48,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-left: -2%; */
 }
 
 .play-store,
@@ -75,7 +72,6 @@ body {
   margin: 0;
   position: absolute;
   top: 10%;
-  /* left: 54%; */
 }
 
 .water_img img {
@@ -126,27 +122,6 @@ body {
   top: 15%;
 }
 
-/* @media screen and (max-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
-  h2,
-  p {
-    font-size: 90% !important;
-  }
-  .main-dev {
-    width: 100%;
-    height: 100%;
-    background-image: no-repeat top/cover url(../images/ellipse-mobile.svg);
-  }
-} */
-
-/* @media screen and (min-width: 1280px) {
-  .water_hand_img {
-    top: 70%;
-  }
-}
-*/
 @media screen and (max-width: 1280px) {
   .water_img {
     left: 54%;
@@ -254,9 +229,6 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
-    font-size: 74%;
-  }
   .container {
     position: static;
     height: auto;
@@ -289,7 +261,6 @@ body {
     height: 100%;
   }
   .phone_img img {
-    margin-top: -75px;
     height: 155%;
     width: 120%;
     object-fit: cover;
@@ -299,5 +270,19 @@ body {
   }
   .dot3 {
     top: 40%;
+  }
+
+  .main-content {
+    width: 98%;
+    padding: 5px 5px 40px 5px;
+  }
+  .water_img{
+    top: 56%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .water_img{
+    top: 63%;
   }
 }
