@@ -15,33 +15,33 @@
   .left-div {
     height: 100%;
     flex-basis: 65%;
-    padding: 4rem 3rem;
+    /* padding: 4rem 3rem; */
     background: no-repeat top/cover url(../images/ellipse-desktop.png);
   }
   
   .left-div h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: white;
     line-height: 110%;
     letter-spacing: -0.02em;
-    padding: 0 12rem 0 0;
+    /* padding: 0 12rem 0 0; */
   }
   
   .left-div p {
-    margin-top: 20px;
-    padding: 0 12rem 0 0;
+    /* margin-top: 20px; */
+    /* padding: 0 12rem 0 0; */
     color: #adb5bd;
   }
   
   .right-div {
     flex-basis: 35%;
-    padding: 2rem;
+    /* padding: 2rem; */
     position: relative;
   }
   
   .right-div .phone-img {
     width: 150%;
-    height: auto;
+    /* height: auto; */
     position: absolute;
     left: -70%;
   }
@@ -53,7 +53,7 @@
   }
   
   .stores-img {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     justify-content: center;
   }
@@ -61,7 +61,7 @@
   .play-store,
   .app-store {
     text-align: center;
-    padding: 0 0.3rem;
+    /* padding: 0 0.3rem; */
   }
   
   .img-water-hand {
@@ -80,7 +80,7 @@
     background-color: #6095d6;
     right: 35%;
     top: 10%;
-    height: 5px;
+    /* height: 5px; */
     width: 5px;
   }
   
@@ -88,14 +88,14 @@
     background-color: #9bcd41;
     right: 27%;
     top: 15%;
-    height: 8px;
+    /* height: 8px; */
     width: 8px;
   }
   
   @media only screen and (max-width: 1024px) {
     .left-div h2,
     .left-div p {
-      padding: 0 2rem 0 0;
+      /* padding: 0 2rem 0 0; */
     }
   }
   
@@ -106,12 +106,8 @@
     }
   
     .left-div {
-      height: 70%;
-    }
-  
-    .left-div {
       width: 100%;
-      height: 100%;
+      height: 70%;
       background: no-repeat top/cover url(../images/ellipse-mobile.svg);
       background-size: 100% 100%;
     }
@@ -124,7 +120,7 @@
       position: static;
       text-align: center;
       width: 100%;
-      height: auto;
+      /* height: auto; */
     }
   
     .img-water-hand {
@@ -146,6 +142,6 @@
     }
   
     .left-div {
-      padding: 2rem 1rem;
+      /* padding: 2rem 1rem; */
     }
   }
