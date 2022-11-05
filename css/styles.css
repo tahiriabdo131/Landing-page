@@ -16,7 +16,7 @@
     height: 100%;
     flex-basis: 65%;
     padding: 4rem 3rem;
-    background: no-repeat top/cover url(images/ellipse-desktop.png);
+    background: no-repeat top/cover url(../images/ellipse-desktop.png);
   }
   
   .left-div h2 {
@@ -112,7 +112,7 @@
     .left-div {
       width: 100%;
       height: 100%;
-      background: no-repeat top/cover url(images/ellipse-mobile.svg);
+      background: no-repeat top/cover url(../images/ellipse-mobile.svg);
       background-size: 100% 100%;
     }
   
