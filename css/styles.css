@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    width: 100%;
     background: #bbdbfd;
     font-family: "DINPro-Bold", sans-serif;
 }
@@ -35,7 +36,6 @@ body {
 
 .right-div {
     flex-basis: 35%;
-    height: 99%;
     position: relative;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .stores-img {
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
@@ -99,19 +99,54 @@ body {
         bottom: 5%;
         right: 10%;
     }
+    .img-water {
+        top: 5%;
+        left: 60%;
+        width: 8%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    .img-water-hand {
+        display: none;
+    }
+    .left-div,
+    .right-div {
+        flex-basis: 100%;
+    }
+    .left-div {
+        padding: 1rem 8rem 1rem 2rem;
+        height: 70%;
+        background: no-repeat top/cover url(../images/ellipse-mobile.svg);
+    }
+    .right-div {
+        height: 30%;
+        padding: 2rem;
+        text-align: center;
+    }
     .left-div h2,
     .left-div p {
         padding: 0 2rem 0 0;
     }
-    .img-water-hand {
-        display: none;
+    .right-div .phone-img {
+        position: static;
+        text-align: center;
+        width: auto;
+        height: 100%;
+    }
+    .img-water {
+        top: 65%;
+        left: 10%;
+        width: 9%;
+        height: auto;
     }
 }
 
 @media only screen and (max-width: 700px) {
+    body {
+        font-size: 95%;
+    }
     .left-div,
     .right-div {
         flex-basis: 100%;
@@ -134,10 +169,6 @@ body {
         width: auto;
         height: 100%;
     }
-    .img-water {
-        top: 95%;
-        left: 10%;
-    }
     .dot1 {
         top: 5%;
         right: 20%;
@@ -145,6 +176,12 @@ body {
     .dot2 {
         top: 0;
         right: 25%;
+    }
+    .img-water {
+        top: 66%;
+        left: 10%;
+        width: 13%;
+        height: auto;
     }
 }
 
@@ -154,5 +191,41 @@ body {
     }
     .left-div {
         padding: 2rem 1rem;
+        width: 100%;
+        height: 60%;
+    }
+    .right-div {
+        width: 100%;
+        height: 40%;
+    }
+    .qr-code-android,
+    .qr-code-ios {
+        height: 80%;
+        width: auto;
+    }
+    .stores-img {
+        margin-top: 15px;
+    }
+    .img-water {
+        top: 57%;
+        left: 10%;
+        width: 15%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        font-size: 59%;
+    }
+    .left-div {
+        width: 105%;
+        height: 65%;
+    }
+    .img-water {
+        top: 62%;
+        left: 10%;
+        width: 15%;
+        height: auto;
     }
 }
