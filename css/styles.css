@@ -32,7 +32,6 @@
 
 .home__img {
     position: relative;
-    /* padding-top: 1.5rem; */
     text-align: center;
     height: 35%;
     width: 100%;
@@ -77,14 +76,6 @@
     width: 5.5rem;
     height: auto;
 }
-
-
-/* .img-water {
-    position: absolute;
-    left: 10%;
-    top: 62%;
-    border-radius: 50%;
-} */
 
 .dot1,
 .dot2,
@@ -168,9 +159,6 @@
     .stores-img {
         margin-left: -10rem;
     }
-    /* .img-water {
-        display: none;
-    } */
     .dot1 {
         top: -244%;
         left: 90%;
@@ -211,6 +199,8 @@
     .home__description {
         font-size: 120%;
     }
+    .qr-code-ios,
+    .qr-code-android,
     .img-water-hand {
         display: none;
     }
@@ -232,7 +222,4 @@
     .home__data {
         height: 68%;
     }
-    /* .img-water {
-        top: 64%;
-    } */
 }
