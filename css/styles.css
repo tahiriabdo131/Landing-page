@@ -62,13 +62,21 @@
 .stores-img {
     padding-top: 0.5rem;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .play-store,
 .app-store {
     text-align: center;
-    padding: 0 0.3rem;
+    /* padding: 0 0.3rem; */
+}
+
+.app-store {
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+}
+.play-store{
+    padding: 0 0.5rem;
 }
 
 .qr-code-android,
@@ -143,7 +151,7 @@
     }
     .home__title {
         padding-right: 10rem;
-        font-size: 150%;
+        font-size: 160%;
     }
     .home__description {
         padding-right: 10rem;
@@ -155,9 +163,6 @@
         left: 45%;
         height: 220%;
         width: auto;
-    }
-    .stores-img {
-        margin-left: -10rem;
     }
     .dot1 {
         top: -244%;
@@ -192,7 +197,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .home__title {
         font-size: 140%;
     }
@@ -203,6 +208,10 @@
     .qr-code-android,
     .img-water-hand {
         display: none;
+    }
+
+    .stores-img {
+        justify-content: center;
     }
 }
 
@@ -221,5 +230,12 @@
     }
     .home__data {
         height: 68%;
+    }
+    .app-store {
+        padding: 0;
+    }
+
+    .play-store {
+        padding: 0 0 0 0.5rem;
     }
 }
