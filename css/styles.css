@@ -129,7 +129,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1284px) {
   .home__title {
     padding-right: 25rem !important;
     font-size: 200% !important;
@@ -140,15 +140,9 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .home__data {
-    width: 80% !important;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .home__data {
-    width: 70%;
+    width: 73%;
     height: 100%;
     padding: 4rem;
     background: no-repeat top/cover url(../img/ellipse-desktop.svg);
