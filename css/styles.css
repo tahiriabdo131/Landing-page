@@ -20,7 +20,7 @@
     height: 65%;
     width: 100%;
     padding-top: 2rem;
-    background: no-repeat top/cover url(../img/ellipse-mobile.svg);
+    background: no-repeat top/cover url(../img/ellipse-mobile.png);
     background-size: 100% 100%;
 }
 
@@ -144,7 +144,7 @@
         width: 70%;
         height: 100%;
         padding: 4rem;
-        background: no-repeat top/cover url(../img/ellipse-desktop.svg);
+        background: no-repeat top/cover url(../img/ellipse-desktop.png);
         background-size: cover;
     }
     .home__title {
